@@ -1,5 +1,5 @@
 {
-  "editor.fontSize": 12,
+  "editor.fontSize": 15,
   "editor.lineHeight": 20,
   "editor.fontWeight": "600",
   "editor.wordWrap": "bounded",
@@ -25,11 +25,12 @@
   "terminal.integrated.fontSize": 15,
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "JetBrains Darcula Theme",
+  "workbench.preferredDarkColorTheme":"Default Dark+",
   "workbench.colorCustomizations": {
-    "tab.activeBackground": "#5a5f66",
-    "activityBar.background": "#5a5f66",
-    "sideBar.background": "#282c34",
-    "terminal.background": "#282c34",
+    "tab.activeBackground": "#3d4142",
+    "activityBar.background": "#3d4142",
+    "sideBar.background": "#363535",
+    "terminal.background": "#2d2d2d",
   },
   "editor.tokenColorCustomizations": {
     "[JetBrains Darcula Theme]": {
@@ -39,7 +40,8 @@
             "source.python"
           ],
           "settings": {
-            "foreground": "#ba101e",
+            "foreground": "#FF0000",
+            "fontStyle": "bold"
           }
         }
       ]
@@ -61,5 +63,6 @@
     "xml",
     "log",
     "php"
-  ]
+  ],
+  "editor.codeActionsOnSave": {}
 }
